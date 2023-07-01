@@ -1,6 +1,8 @@
 require "selenium-webdriver"
 require "rspec"
 
+def enter_email(email)
+
 # TEST: Sign up for blog
 describe "Blog application" do
   describe "signup to the blog application" do
