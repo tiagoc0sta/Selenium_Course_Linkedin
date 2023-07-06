@@ -9,7 +9,7 @@ describe "Blog application" do
     it "confirm that a user can successfully signup" do
 			timestamp = Time.now.to_i
       driver = Selenium::WebDriver.for :firefox
-  		# Go to signup form
+  		# Go to signup form ##
   		driver.navigate.to "https://selenium-blog.herokuapp.com/signup"
   		# Fill out and submit form
   		username_field = driver.find_element(id: 'user_username')
